@@ -1,8 +1,6 @@
 import java.util.Scanner;
-//import java.util.TreeSet;
 
 public class Menu {
-	//private static TreeSet<Brand> brandList = new TreeSet<>();
 	private static Scanner scan = new Scanner(System.in);
 	private static ProductManager productManager = new ProductManager();
 	private static boolean isValid = true;

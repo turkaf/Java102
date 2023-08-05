@@ -84,11 +84,4 @@ public class Product implements Comparable<Product>{
         Product product = (Product) o;
         return id == product.id;
     }
-
-
-	/*@Override
-	public boolean equals(Object obj) {
-		Product newProduct = (Product)obj;
-		return newProduct.getId() == this.getId();
-	}*/
 }

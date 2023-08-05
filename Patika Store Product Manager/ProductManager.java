@@ -120,23 +120,6 @@ public class ProductManager {
 		}
 	}
 	
-	/*public void deleteProduct(int id, Product product) {
-		if(product instanceof Notebook) {
-			for(int i = 0; i < notebookList.size(); i++) {
-				if(id == notebookList.get(i).getId()) {
-					notebookList.remove(i);
-					break;
-				}
-			}
-		}else if(product instanceof MobilePhone) {
-			for(int i = 0; i < mobilePhoneList.size(); i++) {
-				if(id == mobilePhoneList.get(i).getId()) {
-					mobilePhoneList.remove(i);
-					break;
-				}
-			}
-		}
-	}*/
 	
 	public void viewNotebookList() {
 		Iterator<Product> itr = notebookList.iterator();
